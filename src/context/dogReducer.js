@@ -11,7 +11,6 @@ import {
           letrainicial: action.payload
         };
       case NOMBRE_DOG:
-        //action.payload.idTarea es la 'tarea' q se envia y éste tiene como atributo idTarea
         return {
           ...state,
           nombre: action.payload
