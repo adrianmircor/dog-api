@@ -46,14 +46,9 @@ const ListaDogs = () => {
 
   useEffect(() => {
     callApi();
-    //SE EEJECUTA 2 VECES, LA 1RA ENSEGUIDA DE CREAR EL COMPONENTE
-    //LA 2DA CUANDO CAMBIA EL VALOR DE filtarListaDogs
-    /*   console.log("use") 
-    } */
   }, []);
 
   const callApi = async () => {
-    console.log("x.x");
     let razas, razasSegunLetra;
 
     await axios
@@ -73,12 +68,10 @@ const ListaDogs = () => {
     return;
   };
 
-  console.log("callApi fuera >", filtrarListaDogs);
 
   const filtrarSegunLetra = (lista) => {
     let nuevalista = lista.filter((dog) => {
       if (dog.slice(0, 1) === letrainicial) {
-        console.log(".x.x.", dog.slice(0, 1));
         return dog;
       }
       return null;

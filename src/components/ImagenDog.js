@@ -50,8 +50,6 @@ const ImagenDog = () => {
     axios
       .get(`https://dog.ceo/api/breed/${nombre}/images/random`)
       .then((res) => {
-        console.log("url:", res);
-        console.log("url imagen:", res.data.message);
         setLoading(true);
         setImagenDog(res.data.message);
       })

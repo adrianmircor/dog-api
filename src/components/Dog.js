@@ -26,7 +26,6 @@ const Dog = ({ perro }) => {
 
   const seleccionarNombre = (e) => {
     capturarNombre(perro);
-    console.log("========");
   };
 
   return (

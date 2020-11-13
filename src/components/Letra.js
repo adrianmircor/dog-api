@@ -18,7 +18,6 @@ const Letra = ({ letra }) => {
   const { capturarLetraInicial } = useContext(dogContext);
 
   const handleLink = (letrita) => {
-    console.log(letrita);
     capturarLetraInicial(letrita);
   };
 
