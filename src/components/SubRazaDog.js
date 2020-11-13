@@ -1,6 +1,6 @@
 import React, {useContext} from "react";
-import { Link, Redirect } from "react-router-dom";
-import dogContext from "../../context/dogContext";
+import { Link } from "react-router-dom";
+import dogContext from "../context/dogContext";
 
 const SubRazaDog = ({ perro }) => {
 

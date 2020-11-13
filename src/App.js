@@ -1,9 +1,9 @@
 import React from "react";
 import {BrowserRouter, Route} from "react-router-dom";
 
-import LayoutAlfabeto from './components/layouts/LayoutAlfabeto'
-import ListaDogs from './components/layouts/ListaDogs'
-import ImagenDog from './components/layouts/ImagenDog'
+import LayoutAlfabeto from './components/LayoutAlfabeto'
+import ListaDogs from './components/ListaDogs'
+import ImagenDog from './components/ImagenDog'
 
 import DogState from './context/dogState' 
 

@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
-import dogContext from "../../context/dogContext";
+import dogContext from "../context/dogContext";
 
 import axios from "axios";
 

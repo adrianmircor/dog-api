@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 
 import { Link } from "react-router-dom";
-import dogContext from "../../context/dogContext";
+import dogContext from '../context/dogContext';
 
 const Letra = ({ letra }) => {
 
